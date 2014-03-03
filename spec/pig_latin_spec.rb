@@ -3,7 +3,7 @@ require('pig_latin')
 
 describe('pig_latin') do
   it('returns as string with words converted to Pig Latin') do
-    pig_latin('Hello my name is Kat').should(eq('ellohay ymay amenay isay atkay'))
+    pig_latin('Hello my name is Kat').should(eq('Ellohay ymay amenay isay Atkay'))
   end
 end
 
